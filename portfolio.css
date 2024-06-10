@@ -63,6 +63,15 @@ h1 h2 h3 h4 h5 h6 {
 .container .project-text {
   margin-bottom: 30px;
 }
+.footer {
+  background-color: #2b3035;
+}
+.footer .navbar-brand {
+  color: white;
+}
+.footer p {
+  color: white;
+}
 @media (max-width: 900px) {
   .container {
     text-align: center;
