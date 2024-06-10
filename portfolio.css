@@ -57,7 +57,12 @@ h1 h2 h3 h4 h5 h6 {
 .project-text-description {
   padding: 100px 55px;
 }
-
+.container .project-name {
+  margin-bottom: 30px;
+}
+.container .project-text {
+  margin-bottom: 30px;
+}
 @media (max-width: 900px) {
   .container {
     text-align: center;
@@ -70,5 +75,14 @@ h1 h2 h3 h4 h5 h6 {
   }
   .container h1 {
     font-size: 46px;
+  }
+  .project-text-description {
+    padding: 20px 10px;
+  }
+  .container .project-name {
+    margin-bottom: 10px;
+  }
+  .container .project-text {
+    margin-bottom: 10px;
   }
 }
