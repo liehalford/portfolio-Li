@@ -12,14 +12,14 @@ h1 h2 h3 h4 h5 h6 {
   padding: 120px 20px;
   text-align: center;
 }
-h2 {
+.hero h2 {
   font-size: 36px;
 }
-h1 {
-  font-size: 96px;
-  line-height: 20px;
+.hero h1 {
+  font-size: 66px;
+  line-height: 60px;
 }
-p {
+.hero p {
   font-size: 24px;
   font-weight: 100;
   font-family: var(--secondary-font-family);
@@ -31,4 +31,43 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.projects-line {
+  font-size: 18px;
+  text-align: center;
+}
+
+.container .btn {
+  background: white;
+  border-radius: 6px;
+  color: var(--button-color);
+  border: 1px solid #2b3035;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.container h1 {
+  font-size: 64px;
+}
+.container p {
+  font-size: 16px;
+  line-height: 30px;
+}
+.project-text-description {
+  padding: 100px 55px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .container .btn {
+    text-align: center;
+  }
 }
