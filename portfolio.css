@@ -124,7 +124,41 @@ h1 h2 h3 h4 h5 h6 {
   text-decoration: none;
   color: black;
 }
-
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--button-color);
+  padding: 30px;
+}
+.footer-content .col-4 {
+  color: white;
+  text-align: center;
+}
+.footer-content .name {
+  font-family: var(--main-font-family);
+  font-size: 22px;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.footer-content .reserve {
+  font-family: var(--secondary-font-family);
+  font-size: 12px;
+  padding-top: 8px;
+}
+.footer-content .icons {
+  font-size: 25px;
+}
+.fa-brands {
+  color: white;
+}
+i .fa-brands {
+  margin: 200px;
+}
+.fa-brands {
+  width: 60px;
+}
 @media (max-width: 900px) {
   .container {
     text-align: center;
