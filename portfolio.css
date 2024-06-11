@@ -82,6 +82,9 @@ h1 h2 h3 h4 h5 h6 {
 .about-content {
   margin-right: 50px;
 }
+.about-page img {
+  margin-top: 10px;
+}
 @media (max-width: 900px) {
   .container {
     text-align: center;
