@@ -125,22 +125,22 @@ h1 h2 h3 h4 h5 h6 {
   color: black;
 }
 footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: var(--button-color);
-  padding: 30px;
+  padding: 15px;
 }
-.footer-content .col-4 {
+.footer-contact-page {
+  position: fixed;
+}
+.footer-content .col-lg-4 {
   color: white;
   text-align: center;
 }
 .footer-content .name {
   font-family: var(--main-font-family);
   font-size: 22px;
-  padding-left: 0px;
-  margin-left: 0px;
 }
 .footer-content .reserve {
   font-family: var(--secondary-font-family);
@@ -207,5 +207,15 @@ i .fa-brands {
 @media (max-width: 900px) {
   .project-content {
     padding: 20px 60px;
+  }
+}
+@media (max-width: 900px) {
+  .footer-content .name {
+    font-size: 16px;
+    padding-bottom: 6px;
+  }
+  .footer-content .icons {
+    font-size: 15px;
+    padding-bottom: 6px;
   }
 }
